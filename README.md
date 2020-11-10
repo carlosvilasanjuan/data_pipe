@@ -1,4 +1,5 @@
-# Data Pipe project
+# Data Pipe project: Gold appreciation and Monney supply:
+
 
 ## Objective of the project:
 The goal of this project is to apply the data gathering techniques learned at class to analise the relationship betwwen the price of gold with the quantity of money from 198o onwards.
@@ -23,3 +24,25 @@ The goal of this project is to apply the data gathering techniques learned at cl
     - A large sum of the money creation being derived from credit, making negative carry assets less atractive due to the necessity of generating cash flows to repay debt. 
     
 - The secular chart on XAUM looks on a reversal of the secular trend making a double bottom on a higher low. This would suggest that gold is going to outperform M1 expansion during the following decades. 
+
+
+## Issues :
+
+- Tried to scrappe the World Gold Council data for gold supply but opted out as the data was dinamic and also exportable to excel( so there was not value added in the process)
+
+- Tried to get data from BIS via querys but the api was only available for R.
+
+- From the fed also scrapped velocity of money data for m1 and m2 but had to delate it as release dates where diferent than monetary base data. 
+
+- Had a problem converting Velocity of Money Data to datetime as record started before 1970.
+
+- Faced problems importing charts to the readme section.
+
+
+## Next steps :
+
+- Add monetary data from the ECB.
+- Gather more data for monetary and liquidity indicators.
+- Enhance Charts. 
+- Analise data from new prespectives using new charts [study seasonality, add timeframes, look for distributions etc..]
+- Add studies [rate of change, mooving averages etc..]
